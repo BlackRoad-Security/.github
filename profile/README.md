@@ -1,74 +1,44 @@
 <div align="center">
-
-# BlackRoad Security
-
-**Zero-trust security tooling — scanning, detection, identity, and secrets.**
-
-[![Repos](https://img.shields.io/badge/repos-30-black?style=flat-square)](https://github.com/orgs/BlackRoad-Security/repositories)
-[![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)](https://blackroad.ai)
-
+  <h1>🛣️ BlackRoad OS</h1>
+  <p><strong>Your AI. Your Hardware. Your Rules.</strong></p>
+  <p>
+    <img src="https://img.shields.io/badge/Agents-30%2C000-FF1D6C?style=for-the-badge&logo=robot&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Repos-1%2C825%2B-9C27B0?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/Orgs-17-2979FF?style=for-the-badge"/>
+  </p>
 </div>
 
----
+## Overview
 
-## 🛡️ What We Build
+BlackRoad OS is the infrastructure backbone for AI-first companies — powering 30,000+ concurrent AI agents across edge, cloud, and on-premise hardware.
 
-BlackRoad Security manages the security posture of the entire BlackRoad ecosystem — from container scanning to threat detection to identity management.
+| Platform | Scale | Status |
+|----------|-------|--------|
+| AI Agents | 30,000 | ✅ Active |
+| Cloudflare Workers | 75+ | ✅ Active |
+| Raspberry Pi Fleet | 4 nodes | ✅ Active |
+| GitHub Actions | 50+ workflows | ✅ Active |
 
----
+## Core Systems
 
-## 📦 Repositories
+- **Tokenless Gateway** — All AI provider secrets live only here
+- **PS-SHA∞ Memory** — Hash-chained persistent AI memory  
+- **CECE Identity** — Portable AI identity across any provider
+- **30K Agent Mesh** — WebSocket + MQTT orchestration
 
-### Scanning & SAST
-| Repo | Upstream | Purpose |
-|------|----------|---------|
-| [`blackroad-trivy`](https://github.com/BlackRoad-Security/blackroad-trivy) | aquasecurity/trivy | Container + IaC vulnerability scanner |
-| [`blackroad-grype`](https://github.com/BlackRoad-Security/blackroad-grype) | anchore/grype | Dependency vulnerability scanner |
-| [`blackroad-semgrep`](https://github.com/BlackRoad-Security/blackroad-semgrep) | returntocorp/semgrep | Static analysis / SAST |
-| [`blackroad-terrascan`](https://github.com/BlackRoad-Security/blackroad-terrascan) | accurics/terrascan | IaC security scanner |
-| [`blackroad-kube-bench`](https://github.com/BlackRoad-Security/blackroad-kube-bench) | aquasecurity/kube-bench | CIS K8s benchmark |
-| [`blackroad-scorecard`](https://github.com/BlackRoad-Security/blackroad-scorecard) | ossf/scorecard | Supply chain security |
-| [`blackroad-nuclei`](https://github.com/BlackRoad-Security/blackroad-nuclei) | projectdiscovery/nuclei | Vulnerability scanner |
-| [`blackroad-trufflehog`](https://github.com/BlackRoad-Security/blackroad-trufflehog) | trufflesecurity/trufflehog | Secrets scanner |
-| [`penetration-testing`](https://github.com/BlackRoad-Security/penetration-testing) | — | Pentest tooling + playbooks |
+## Organizations
 
-### Threat Detection & Response
-| Repo | Upstream | Purpose |
-|------|----------|---------|
-| [`blackroad-falco`](https://github.com/BlackRoad-Security/blackroad-falco) | falcosecurity/falco | Runtime threat detection |
-| [`blackroad-wazuh`](https://github.com/BlackRoad-Security/blackroad-wazuh) | wazuh/wazuh | SIEM + XDR |
-| [`blackroad-crowdsec`](https://github.com/BlackRoad-Security/blackroad-crowdsec) | crowdsecurity/crowdsec | Collaborative IPS |
-| [`blackroad-thehive`](https://github.com/BlackRoad-Security/blackroad-thehive) | TheHive-Project/TheHive | Security incident response |
-| [`blackroad-velociraptor`](https://github.com/BlackRoad-Security/blackroad-velociraptor) | Velocidex/velociraptor | Digital forensics |
-| [`blackroad-osquery`](https://github.com/BlackRoad-Security/blackroad-osquery) | osquery/osquery | OS instrumentation |
-| [`blackroad-misp`](https://github.com/BlackRoad-Security/blackroad-misp) | MISP/MISP | Threat intelligence |
-| [`blackroad-threatmapper`](https://github.com/BlackRoad-Security/blackroad-threatmapper) | deepfence/ThreatMapper | Cloud-native threat mapping |
-| [`blackroad-snort`](https://github.com/BlackRoad-Security/blackroad-snort) | snort3/snort3 | Network IDS |
+| Org | Purpose |
+|-----|---------|
+| [BlackRoad-OS-Inc](https://github.com/BlackRoad-OS-Inc) | Core platform & gateway |
+| [BlackRoad-OS](https://github.com/BlackRoad-OS) | OS, web, docs, agents |
+| [BlackRoad-AI](https://github.com/BlackRoad-AI) | ML models & inference |
+| [BlackRoad-Cloud](https://github.com/BlackRoad-Cloud) | Infrastructure & K8s |
+| [BlackRoad-Security](https://github.com/BlackRoad-Security) | Security & compliance |
 
-### WAF & Network
-| Repo | Upstream | Purpose |
-|------|----------|---------|
-| [`blackroad-modsecurity`](https://github.com/BlackRoad-Security/blackroad-modsecurity) | owasp-modsecurity | Web application firewall |
-| [`blackroad-zap`](https://github.com/BlackRoad-Security/blackroad-zap) | zaproxy/zaproxy | Web security testing |
-| [`blackroad-nmap`](https://github.com/BlackRoad-Security/blackroad-nmap) | nmap/nmap | Network discovery |
-| [`blackroad-fail2ban`](https://github.com/BlackRoad-Security/blackroad-fail2ban) | fail2ban/fail2ban | Intrusion prevention |
-| [`blackroad-cilium`](https://github.com/BlackRoad-Security/blackroad-cilium) | cilium/cilium | eBPF network security |
-| [`blackroad-django-defectdojo`](https://github.com/BlackRoad-Security/blackroad-django-defectdojo) | DefectDojo/django-DefectDojo | Vuln management |
+## Brand
 
-### Identity & Secrets
-| Repo | Upstream | Purpose |
-|------|----------|---------|
-| [`blackroad-keycloak`](https://github.com/BlackRoad-Security/blackroad-keycloak) | keycloak/keycloak | Identity + SSO |
-| [`blackroad-authentik`](https://github.com/BlackRoad-Security/blackroad-authentik) | goauthentik/authentik | Open-source IdP |
-| [`blackroad-openbao`](https://github.com/BlackRoad-Security/blackroad-openbao) | openbao/openbao | Open-source Vault fork |
-| [`blackroad-sops-new`](https://github.com/BlackRoad-Security/blackroad-sops-new) | getsops/sops | Encrypted file secrets |
-
-### Audits
-| Repo | Purpose |
-|------|---------|
-| [`security-audits`](https://github.com/BlackRoad-Security/security-audits) | Audit reports and findings |
+Primary: `#FF1D6C` · Gradient: `#F5A623 → #FF1D6C → #9C27B0 → #2979FF`
 
 ---
-
-> Part of [BlackRoad OS](https://github.com/BlackRoad-OS-Inc) — 17 orgs, 1,825+ repos.
-> © BlackRoad OS, Inc. All rights reserved.
+*© BlackRoad OS, Inc. All rights reserved. Proprietary — not open source.*
