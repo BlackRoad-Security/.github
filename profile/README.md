@@ -1,32 +1,38 @@
 <div align="center">
-  <h1>🛡️ BlackRoad Security</h1>
-  <p><strong>Zero trust. Everything verified. Nothing assumed.</strong></p>
-  <p>
-    <img src="https://img.shields.io/badge/Secrets-AES--256--CBC-FF1D6C?style=for-the-badge"/>
-    <img src="https://img.shields.io/badge/Scanning-Trivy%20%7C%20Grype-9C27B0?style=for-the-badge"/>
-    <img src="https://img.shields.io/badge/Memory-PS--SHA∞-2979FF?style=for-the-badge"/>
-  </p>
+
+# 🛡️ BlackRoad Security
+
+### Zero Trust. Zero Compromise.
+
+Security scanning, runtime protection, secrets management, and compliance tooling for the modern stack.
+
+[![Platform](https://img.shields.io/badge/Platform-blackroad.io-FF1D6C?style=for-the-badge)](https://blackroad.io)
+[![Agents](https://img.shields.io/badge/AI_Agents-30%2C000-9C27B0?style=for-the-badge)](https://agents.blackroad.io)
+[![Cost](https://img.shields.io/badge/AI_Cost-%240-F5A623?style=for-the-badge)](https://blackroad.io)
+
 </div>
 
-## What Lives Here
+---
 
-Security tooling, secret management, and compliance infrastructure for the BlackRoad platform.
+## 🎯 Focus Areas
 
-## Security Posture
+`Vulnerability Scanning` • `Runtime Security` • `Secrets` • `WAF/IDS`
 
-| Layer | Implementation |
-|-------|---------------|
-| Secrets | Vault (`~/.blackroad/vault/`) — AES-256-CBC |
-| Agent trust | Tokenless — gateway is the only trust boundary |
-| Memory | PS-SHA∞ hash-chain journals — tamper-evident |
-| Scanning | Trivy + Grype + TruffleHog (all PRs) |
-| Runtime | Falco + Wazuh + CrowdSec |
-| SSH | Keys must be chmod 600; no password auth |
-| Gateway | Binds to 127.0.0.1 by default |
+## 🔗 Links
 
-## Key Principle
-
-Agents **never** hold API keys. All provider secrets live exclusively in the tokenless gateway. `verify-tokenless-agents.sh` scans for forbidden strings on every push.
+| | |
+|---|---|
+| 🌐 **Website** | [blackroad-security.github.io](https://blackroad-security.github.io) |
+| 📖 **Docs** | [docs.blackroad.io](https://docs.blackroad.io) |
+| 💬 **Status** | [status.blackroad.io](https://status.blackroad.io) |
+| 🤖 **Agents** | [agents.blackroad.io](https://agents.blackroad.io) |
 
 ---
+
+<div align="center">
+
+**Part of [BlackRoad OS](https://blackroad.io)** — 30,000 AI Agents • 17 Organizations • 1,800+ Repos • $0 AI Cost
+
 *© BlackRoad OS, Inc. All rights reserved.*
+
+</div>
