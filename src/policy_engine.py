@@ -69,11 +69,15 @@ class PolicyEngine:
                     action TEXT NOT NULL,
                     priority INTEGER NOT NULL,
                     enabled INTEGER DEFAULT 1,
-                    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-                    INDEX idx_priority (priority),
-                    INDEX idx_enabled (enabled)
+                    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
                 )
             """)
+            conn.execute(
+                "CREATE INDEX IF NOT EXISTS idx_priority ON policies(priority)"
+            )
+            conn.execute(
+                "CREATE INDEX IF NOT EXISTS idx_enabled ON policies(enabled)"
+            )
             conn.execute("""
                 CREATE TABLE IF NOT EXISTS policy_violations (
                     violation_id TEXT PRIMARY KEY,
@@ -84,12 +88,18 @@ class PolicyEngine:
                     details TEXT,
                     severity TEXT,
                     created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-                    FOREIGN KEY (rule_id) REFERENCES policies(rule_id),
-                    INDEX idx_timestamp (timestamp),
-                    INDEX idx_subject (subject),
-                    INDEX idx_severity (severity)
+                    FOREIGN KEY (rule_id) REFERENCES policies(rule_id)
                 )
             """)
+            conn.execute(
+                "CREATE INDEX IF NOT EXISTS idx_timestamp ON policy_violations(timestamp)"
+            )
+            conn.execute(
+                "CREATE INDEX IF NOT EXISTS idx_subject ON policy_violations(subject)"
+            )
+            conn.execute(
+                "CREATE INDEX IF NOT EXISTS idx_severity ON policy_violations(severity)"
+            )
             conn.execute("""
                 CREATE TABLE IF NOT EXISTS policy_exemptions (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
