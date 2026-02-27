@@ -191,7 +191,7 @@ _ROUTING_KEYWORDS: Dict[str, OrganizationDomain] = {
     "orchestration": OrganizationDomain.CLOUD,
     # Hardware
     "raspberry": OrganizationDomain.HARDWARE,
-    "pi": OrganizationDomain.HARDWARE,
+    "raspberry pi": OrganizationDomain.HARDWARE,
     "firmware": OrganizationDomain.HARDWARE,
     "iot": OrganizationDomain.HARDWARE,
     "sbc": OrganizationDomain.HARDWARE,
