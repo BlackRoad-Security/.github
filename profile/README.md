@@ -1,38 +1,42 @@
 <div align="center">
 
-# 🛡️ BlackRoad Security
+# BlackRoad Security
 
-### Zero Trust. Zero Compromise.
+**Zero-trust security — vulnerability scanning, secrets management, runtime protection.**
 
-Security scanning, runtime protection, secrets management, and compliance tooling for the modern stack.
-
-[![Platform](https://img.shields.io/badge/Platform-blackroad.io-FF1D6C?style=for-the-badge)](https://blackroad.io)
-[![Agents](https://img.shields.io/badge/AI_Agents-30%2C000-9C27B0?style=for-the-badge)](https://agents.blackroad.io)
-[![Cost](https://img.shields.io/badge/AI_Cost-%240-F5A623?style=for-the-badge)](https://blackroad.io)
+[![Website](https://img.shields.io/badge/blackroad--security.github.io-000?style=flat-square&logo=github)](https://blackroad-security.github.io)
 
 </div>
 
 ---
 
-## 🎯 Focus Areas
+## Repositories
 
-`Vulnerability Scanning` • `Runtime Security` • `Secrets` • `WAF/IDS`
-
-## 🔗 Links
-
-| | |
+| Repository | Description |
 |---|---|
-| 🌐 **Website** | [blackroad-security.github.io](https://blackroad-security.github.io) |
-| 📖 **Docs** | [docs.blackroad.io](https://docs.blackroad.io) |
-| 💬 **Status** | [status.blackroad.io](https://status.blackroad.io) |
-| 🤖 **Agents** | [agents.blackroad.io](https://agents.blackroad.io) |
+| [penetration-testing](https://github.com/BlackRoad-Security/penetration-testing) | Penetration testing tools and methodologies |
+| [security-audits](https://github.com/BlackRoad-Security/security-audits) | Security audit reports and findings |
+
+<details>
+<summary>Archived</summary>
+
+| Repository | Description |
+|---|---|
+| [blackroad-security-audit](https://github.com/BlackRoad-Security/blackroad-security-audit) | BlackRoad Security - ublackroad security audit |
+| [blackroad-pen-test](https://github.com/BlackRoad-Security/blackroad-pen-test) | BlackRoad Security - ublackroad pen test |
+| [blackroad-access-control](https://github.com/BlackRoad-Security/blackroad-access-control) | BlackRoad Security - ublackroad access control |
+| [blackroad-encryption-suite](https://github.com/BlackRoad-Security/blackroad-encryption-suite) | BlackRoad Security - ublackroad encryption suite |
+| [blackroad-secret-scanner](https://github.com/BlackRoad-Security/blackroad-secret-scanner) | BlackRoad Security - ublackroad secret scanner |
+| [blackroad-compliance-framework](https://github.com/BlackRoad-Security/blackroad-compliance-framework) | BlackRoad Security - ublackroad compliance framework |
+| [blackroad-identity-provider](https://github.com/BlackRoad-Security/blackroad-identity-provider) | BlackRoad Security - ublackroad identity provider |
+| [blackroad-threat-intel](https://github.com/BlackRoad-Security/blackroad-threat-intel) | BlackRoad Security - Threat Intelligence |
+| [blackroad-siem](https://github.com/BlackRoad-Security/blackroad-siem) | Security Information and Event Management system |
+| [blackroad-password-manager](https://github.com/BlackRoad-Security/blackroad-password-manager) | CLI password manager with encryption |
+| [blackroad-cert-manager](https://github.com/BlackRoad-Security/blackroad-cert-manager) | TLS certificate lifecycle management |
+| [blackroad-incident-response](https://github.com/BlackRoad-Security/blackroad-incident-response) | Security incident response playbooks and tracking |
+
+</details>
 
 ---
 
-<div align="center">
-
-**Part of [BlackRoad OS](https://blackroad.io)** — 30,000 AI Agents • 17 Organizations • 1,800+ Repos • $0 AI Cost
-
-*© BlackRoad OS, Inc. All rights reserved.*
-
-</div>
+<sub>BlackRoad OS, Inc. — [blackroad.io](https://blackroad.io)</sub>
