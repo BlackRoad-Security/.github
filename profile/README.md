@@ -1,25 +1,41 @@
+<div align="center">
+
+<img src="https://images.blackroad.io/pixel-art/road-logo.png" alt="BlackRoad OS" width="80" />
+
 # BlackRoad Security
 
-**A division of [BlackRoad OS, Inc.](https://github.com/BlackRoad-OS-Inc) — Proprietary Software**
+**Zero-trust security tooling for sovereign infrastructure.**
+
+[![BlackRoad OS](https://img.shields.io/badge/BlackRoad_OS-Pave_Tomorrow-FF2255?style=for-the-badge&labelColor=000000)](https://blackroad.io)
+
+</div>
 
 ---
 
 ## About
 
-BlackRoad Security is the security division of BlackRoad OS. BlackRoad Security handles zero-trust security across the fleet — vulnerability scanning, penetration testing, encryption, identity management, secrets rotation, and incident response. Every node audited, every connection verified.
+BlackRoad Security develops the encryption, monitoring, and incident response tools that protect the entire BlackRoad fleet. Every node, every tunnel, every agent is secured through zero-trust principles -- no implicit trust, continuous verification, and full audit trails. Security is not a feature; it is the foundation.
 
-All repositories in this organization are proprietary to BlackRoad OS, Inc. Source code is publicly visible for transparency. Commercial use, forking, and redistribution are prohibited.
+## Repositories
 
-## Parent Organization
+| Repository | Description |
+|------------|-------------|
+| [blackroad-encryption-suite](https://github.com/BlackRoad-Security/blackroad-encryption-suite) | End-to-end encryption libraries and key management |
+| [blackroad-siem](https://github.com/BlackRoad-Security/blackroad-siem) | Security event monitoring and threat detection |
+| [blackroad-secret-scanner](https://github.com/BlackRoad-Security/blackroad-secret-scanner) | Credential and secret leak detection across repos |
+| [blackroad-cert-manager](https://github.com/BlackRoad-Security/blackroad-cert-manager) | TLS certificate lifecycle automation |
+| [blackroad-incident-response](https://github.com/BlackRoad-Security/blackroad-incident-response) | Incident playbooks and automated remediation |
 
-This division operates under [BlackRoad-OS-Inc](https://github.com/BlackRoad-OS-Inc), the corporate root of the BlackRoad ecosystem. See the parent org for the full technology stack, product catalog, and organizational structure.
+## Part of BlackRoad OS
 
-## License
+This organization is part of [BlackRoad OS, Inc.](https://blackroad.io) -- sovereign AI infrastructure built by Alexa Amundson.
 
-Proprietary — BlackRoad OS, Inc. See individual repositories for license terms.
+- 16 organizations | 275+ repositories | 20 domains
+- 7 nodes | 41.8 TOPS | 60 AI agents
+- Self-hosted everything. Your AI. Your hardware. Your rules.
 
 ---
 
-**BlackRoad OS — Pave Tomorrow.**
+**BlackRoad OS -- Pave Tomorrow.**
 
-*Copyright 2024-2026 BlackRoad OS, Inc. All Rights Reserved.*
+[blackroad.io](https://blackroad.io) | [git.blackroad.io](https://git.blackroad.io)
