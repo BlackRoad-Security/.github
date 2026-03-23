@@ -1,19 +1,16 @@
 # BlackRoad-Security
 
-**Zero-trust auth and encryption** — Part of the BlackRoad OS ecosystem.
+**BlackRoad Security — zero-trust auth, encryption, SIEM, secret scanning. Pave Tomorrow.**
 
-> 18 orgs · 20 domains · 200 agents · Sovereign infrastructure
+> Remember the Road. Pave Tomorrow.
 
-20 public repositories | [blackroad.io](https://blackroad.io) | [BlackRoad-OS-Inc](https://github.com/BlackRoad-OS-Inc)
+BlackRoad OS, Inc. — Delaware C-Corp, incorporated November 17, 2025.
 
-## Key Repositories
+24 public repositories | [blackroad.io](https://blackroad.io) | [BlackRoad-OS-Inc](https://github.com/BlackRoad-OS-Inc)
 
-- [.github](https://github.com/BlackRoad-Security/.github) — Auth, encryption, compliance — downstream from BlackRoad-OS-Inc[0:60]
-- [blackroad-security.github.io](https://github.com/BlackRoad-Security/blackroad-security.github.io) — BlackRoad OS GitHub Pages[0:60]
-- [roadblock](https://github.com/BlackRoad-Security/roadblock) — Roadblock — Zero-Trust Security[0:60]
-- [memory-gate](https://github.com/BlackRoad-Security/memory-gate) — memory-gate — BlackRoad-Security. Proprietary BlackRoad OS, Inc.[0:60]
-- [wireguard-configs](https://github.com/BlackRoad-Security/wireguard-configs) — wireguard-configs — BlackRoad Security[0:60]
+18 orgs · 20 domains · 200 agents · 2,156 repos · Sovereign infrastructure
 
 ---
 
-Proprietary — BlackRoad OS, Inc. All rights reserved.
+Proprietary — BlackRoad OS, Inc. All rights reserved. Incorporated 2025.
+
