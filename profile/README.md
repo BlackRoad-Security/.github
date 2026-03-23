@@ -1,20 +1,19 @@
 # BlackRoad-Security
 
-**Security, encryption, Tor, BlackBox**
+**Zero-trust auth and encryption** — Part of the BlackRoad OS ecosystem.
 
-Part of [BlackRoad OS](https://blackroad.io) — sovereign infrastructure built from bare metal up.
+> 18 orgs · 20 domains · 200 agents · Sovereign infrastructure
+
+20 public repositories | [blackroad.io](https://blackroad.io) | [BlackRoad-OS-Inc](https://github.com/BlackRoad-OS-Inc)
+
+## Key Repositories
+
+- [.github](https://github.com/BlackRoad-Security/.github) — Auth, encryption, compliance — downstream from BlackRoad-OS-Inc[0:60]
+- [blackroad-security.github.io](https://github.com/BlackRoad-Security/blackroad-security.github.io) — BlackRoad OS GitHub Pages[0:60]
+- [roadblock](https://github.com/BlackRoad-Security/roadblock) — Roadblock — Zero-Trust Security[0:60]
+- [memory-gate](https://github.com/BlackRoad-Security/memory-gate) — memory-gate — BlackRoad-Security. Proprietary BlackRoad OS, Inc.[0:60]
+- [wireguard-configs](https://github.com/BlackRoad-Security/wireguard-configs) — wireguard-configs — BlackRoad Security[0:60]
 
 ---
 
-| | |
-|---|---|
-| **Parent** | [BlackRoad OS, Inc.](https://github.com/BlackRoad-OS-Inc) |
-| **Website** | [blackroad.io](https://blackroad.io) |
-| **Search** | [search.blackroad.io](https://search.blackroad.io) |
-| **Org Page** | [blackroad-security.github.io](https://blackroad-security.github.io) |
-
----
-
-> Built by [Alexa Amundson](https://blackroad.me). Delaware C-Corp. Founded November 2025.
-> 
-> 23 orgs · 2,280+ repos · 29 languages · 7 nodes · 52 TOPS
+Proprietary — BlackRoad OS, Inc. All rights reserved.
